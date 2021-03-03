@@ -48,9 +48,17 @@ section {
 
 
 div.item {
+    transform: translate(-50%, -50%);
     width: 50%;
     height: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+
+img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
